@@ -7,7 +7,7 @@ public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
-    public float bulletForce = 115f;
+    public float bulletForce = 125f;
     private float timeBtwShots;
     public float startTimeBtwShots;
     public static float ammoCount = 10; 
